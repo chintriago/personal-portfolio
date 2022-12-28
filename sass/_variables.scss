@@ -1,0 +1,80 @@
+/*===========================================================
+
+   Template Name: Simone - Personal Portfolio Template
+   Author: Harnish Design
+   Template URL: http://demo.harnishdesign.net/html/simone
+   Author URL: https://themeforest.net/user/harnishdesign
+   File Description : Main css file of the template
+	
+=================================================
+  Table of Contents
+=================================================
+
+	1. Basic
+	2. Helpers Classes
+	3. Layouts
+	4. Header
+		4.1 Navigation
+		4.2 Secondary Nav
+		4.3 Page Header
+	5 Elements
+		5.1 Featured Box
+		5.2 Team
+		5.3 Accordion & Toggle
+		5.4 Nav
+		5.5 Tabs
+		5.6 Hero Background
+		5.7 Owl Carousel
+		5.8 Brands Grid
+		5.9 Portfolio
+		5.10 List Style
+	6 Footer
+		6.1 Social Icons
+		6.2 Back to Top
+	7 Extra
+
+=======================================================*/
+
+
+//---------- Fonts ----------//
+
+$body-font: 'Poppins', sans-serif;
+
+//---------- Base Colors ----------//
+
+$primary-color: 			$teal;
+$primary-color-hover: 		darken($primary-color, 7%);
+$secondary-color: 			$secondary;
+
+$body-bg:					#dddddd;
+$text-color:				#4c4d4d;
+$title-color:     			#252b33;
+
+
+//---------- Social Icons Colors ----------//
+
+$facebook:                 #3B5998;
+$twitter:                  #00ACEE;
+$google:                   #DD4B39;
+$linkedin:                 #0E76A8;
+$youtube:                  #C4302B;
+$instagram:                #3F729B;
+$dribbble: 				   #ea4c89;
+$github: 				   #333333;
+$behance: 				   #053eff;
+$reddit:                   #C6C6C6;
+$pinterest: 			   #cc2127;
+$vk:                       #2B587A;
+$rss:                      #EE802F;
+$skype:                    #00AFF0;
+$xing:                     #126567;
+$tumblr:                   #34526F;
+$email:                    #6567A5;
+$delicious:                #205CC0;
+$stumbleupon:              #F74425;
+$digg:                     #191919;
+$blogger:                  #FC4F08;
+$flickr:                   #FF0084;
+$vimeo:                    #86C9EF;
+$yahoo:                    #720E9E;
+$appstore:                 #000;
