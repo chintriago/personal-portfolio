@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 /*===========================================================
 	
 =================================================
@@ -31,6 +32,11 @@
 /* =================================== */
 /*  1. Basic Style 
 /* =================================== */
+p {
+  font-family: sans-serif!important;
+  font-size: 1.10rem!important;
+}
+
 body, html {
   height: 100%;
 }
@@ -44,7 +50,8 @@ body, html {
 body {
   background: #dddddd;
   color: #4c4d4d;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Oswald', sans-serif;
+
 }
 
 /*-------- Preloader --------*/
