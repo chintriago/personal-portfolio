@@ -3,24 +3,24 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
-require './phpmailer/src/Exception.php';
-require './phpmailer/src/PHPMailer.php';
-require './phpmailer/src/SMTP.php';
+require 'phpmailer/src/Exception.php';
+require 'phpmailer/src/PHPMailer.php';
+require 'phpmailer/src/SMTP.php';
 
 
 /* --------------------------------------------
 // Receiver's Email
 --------------------------------------------- */
 
-$toEmail = "chrisintriago94@gmail.com"; // Replace Your Email Address
+$toEmail = ""; // Replace Your Email Address
 
 
 /* --------------------------------------------
 // Sender's Email
 --------------------------------------------- */
 
-$fromEmail = "chrisintriago94@gmail.com"; // Replace Company's Email Address (preferably currently used Domain Name)
-$fromName = "chrisintocode.dev"; // Replace Company Name
+$fromEmail = ""; // Replace Company's Email Address (preferably currently used Domain Name)
+$fromName = ""; // Replace Company Name
 
 
 /* --------------------------------------------
