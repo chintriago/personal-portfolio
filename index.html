@@ -19,6 +19,7 @@
   <!-- Custom Stylesheet -->
   <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
   <link rel="stylesheet" type="text/css" href="css/color-blue.css" />
+  <link rel="stylesheet" type="text/css" href="css/custom.css" />
 </head>
 
 <body class="side-header" data-bs-spy="scroll" data-bs-target="#header-nav" data-bs-offset="1">
@@ -45,36 +46,42 @@
         <div class="container-fluid position-relative h-100 flex-lg-column ps-3 px-lg-3 pt-lg-3 pb-lg-2">
 
           <!-- Logo -->
-          <a href="index.html" class="mb-lg-auto mt-lg-4">
+          <a href="index.html" class="grow-logo mb-lg-auto mt-lg-4">
             <span class="rounded-pill p-2 mb-lg-1 d-none d-lg-inline-block">
               <img class="img-fluid rounded-pill d-block" src="images/profile.jpg" title="I'm Chris"
                 alt="profile photo">
             </span>
-            <h1 class="text-5 text-white text-center mb-0 d-lg-block">
-              chrisintocode.dev</h1>
+            <span class="d-flex justify-content-center">
+              <img style="padding-right: 3px;" src="favicon.png" alt="">
+              <h1 class="my-auto text-6 text-white text-center mb-0 d-lg-block">
+                hrisintocode.dev</h1>
+            </span>
           </a>
           <!-- Logo End -->
 
           <div id="header-nav" class="collapse navbar-collapse w-100 my-lg-auto">
             <ul class="navbar-nav text-lg-center my-lg-auto py-lg-3">
-              <li class="nav-item"><a class="nav-link smooth-scroll active" href="#home">Home</a></li>
-              <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">About Me</a></li>
-              <li class="nav-item"><a class="nav-link smooth-scroll" href="#skills">Skills</a></li>
-              <li class="nav-item"><a class="nav-link smooth-scroll" href="#services">Services</a></li>
-              <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a></li>
-              <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contact</a></li>
+              <li class="nav-item"><a class="nav-link smooth-scroll grow-nav text-5 active" href="#home">Home</a></li>
+              <li class="nav-item"><a class="nav-link smooth-scroll grow-nav text-5" href="#about">About Me</a></li>
+              <li class="nav-item"><a class="nav-link smooth-scroll grow-nav text-5" href="#skills">Skills</a></li>
+              <li class="nav-item"><a class="nav-link smooth-scroll grow-nav text-5" href="#services">Services</a></li>
+              <li class="nav-item"><a class="nav-link smooth-scroll grow-nav text-5" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item"><a class="nav-link smooth-scroll grow-nav text-5" href="#contact">Contact</a></li>
             </ul>
           </div>
           <ul class="mobile-none social-icons social-icons-muted social-icons-sm mt-lg-auto ms-auto ms-lg-0 d-flex">
-            <li class="social-icons-facebook"><a data-bs-toggle="tooltip" title="Facebook"
+            <li class="social-icons-facebook"><a class="grow-nav" data-bs-toggle="tooltip" title="Facebook"
                 href="https://www.facebook.com/sk8erx94" tar get="_blank"><i class="fab fa-facebook-f"></i></a></li>
-            <li class="social-icons-twitter"><a data-bs-toggle="tooltip" title="Twitter"
+            <li class="social-icons-twitter"><a class="grow-nav" data-bs-toggle="tooltip" title="Twitter"
                 href="https://twitter.com/chrisintocode" target="_blank"><i class="fab fa-twitter"></i></a></li>
-            <li class="social-icons-dribbble"><a data-bs-toggle="tooltip" title="Instagram" data-bs-placement="top"
-                href="https://www.instagram.com/chris.intriago/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <li class="social-icons-dribbble"><a class="grow-nav" data-bs-toggle="tooltip" title="Instagram"
+                data-bs-placement="top" href="https://www.instagram.com/chris.intriago/" target="_blank"><i
+                  class="fab fa-instagram"></i></a>
             </li>
-            <li class="social-icons-github"><a data-bs-toggle="tooltip" title="GitHub" data-bs-placement="top"
-                href="https://github.com/chintriago" target="_blank"><i class="fab fa-github"></i></a></li>
+            <li class="social-icons-github"><a class="grow-nav" data-bs-toggle="tooltip" title="GitHub"
+                data-bs-placement="top" href="https://github.com/chintriago" target="_blank"><i
+                  class="fab fa-github"></i></a></li>
           </ul>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
             data-bs-target="#header-nav"><span></span><span></span><span></span></button>
@@ -106,11 +113,11 @@
                     <p>I'm a Problem Solver</p>
                     <p>I'm a Collaborator</p>
                   </div>
-                  <p class="text-7 fw-500 text-white mb-2 mb-md-3">Welcome</p>
+                  <p class="font-title text-7 fw-500 text-white mb-2 mb-md-3">Welcome</p>
                   <h2 class="text-16 fw-600 text-white mb-2 mb-md-3"><span class="typed"></span></h2>
-                  <p class="text-5 text-light mb-4">based in Los Angeles, California.</p>
-                  <a href="#contact" class="btn btn-outline-primary rounded-pill shadow-none smooth-scroll mt-2">Hire
-                    Me</a>
+                  <p class="font-title text-5 text-light mb-4">based in Los Angeles, California.</p>
+                  <a href="#portfolio"
+                    class="btn btn-outline-primary rounded-pill shadow-none smooth-scroll mt-2 grow-btn">Portfolio</a>
                 </div>
               </div>
             </div>
@@ -124,12 +131,12 @@
       <!-- About
     ============================================= -->
       <section id="about" class="section">
-        <div class="container px-lg-5">
+        <div class="container px-lg-5 my-xl-4">
           <!-- Heading -->
-          <div class="position-relative d-flex text-center mb-5">
-            <h2 class="text-24 text-light opacity-4 text-uppercase fw-600 w-100 mb-0">About Me</h2>
-            <p style="font-family: 'Oswald', sans-serif !important;"
-              class="text-9 text-dark fw-600 position-absolute w-100 align-self-center lh-base mb-0">Get To Know
+          <div class="position-relative d-flex text-center mb-5 my-xl-5">
+            <h2 class="text-25 text-light opacity-3 text-uppercase fw-600 w-100 mb-0">About Me</h2>
+            <p class="font-title text-12 text-dark fw-600 position-absolute w-100 align-self-center lh-base mb-0">Get To
+              Know
               Me<span class="heading-separator-line border-bottom border-3 border-primary d-block mx-auto"></span> </p>
           </div>
           <!-- Heading end-->
@@ -142,9 +149,12 @@
               </span>
             </div>
             <div class="col-lg-7 col-xl-8 text-center">
-              <h2 class="text-7 fw-600 mb-3">My name is <span class="text-primary">Christopher Intriago</span>
+              <h2 class="text-7 fw-600 mb-4">My name is <span class="text-primary text-10">Christopher Intriago</span>
               </h2>
-              <p>I'm very passionate about frontend design and implementing code to make a spectacular product. As a
+              <p class="text-5">I'm very passionate about frontend design and
+                implementing code to make a
+                spectacular
+                product. As a
                 developer I am always learning
                 and adapting to new and even old technologies. I have come to enjoy and appreciate the challenges
                 developing
@@ -157,69 +167,69 @@
 
       <!-- Skills
     ============================================= -->
-      <section id="skills" class="section bg-light">
-        <div class="container px-lg-5">
+      <section id="skills" class="section">
+        <div class="container px-lg-5 my-xl-4">
           <!-- Heading -->
-          <div class="position-relative d-flex text-center mb-5">
-            <h2 class="text-24 text-light opacity-4 text-uppercase fw-600 w-100 mb-0">Skills</h2>
-            <p style="font-family: 'Oswald', sans-serif !important;"
-              class="text-9 text-dark fw-600 position-absolute w-100 align-self-center lh-base mb-0">What I Can Do<span
-                class="heading-separator-line border-bottom border-3 border-primary d-block mx-auto"></span> </p>
+          <div class="position-relative d-flex text-center mb-5 my-xl-5">
+            <h2 class="text-25 text-light opacity-3 text-uppercase fw-600 w-100 mb-0">Skills</h2>
+            <p class="font-title text-12 text-dark fw-600 position-absolute w-100 align-self-center lh-base mb-0">What I
+              Can Do<span class="heading-separator-line border-bottom border-3 border-primary d-block mx-auto"></span>
+            </p>
           </div>
           <!-- Heading end-->
           <div class="row">
             <div class="col-lg-11 mx-auto">
               <div class="row">
-                <div class="col-6 col-md-3">
+                <div style="background: #f2f4f4; border: 12px solid white;" class="col-12 col-sm-6 col-xl-3 grow-card">
                   <div class="d-flex justify-content-center mb-5 mt-5">
                     <div class="text-center"><img src="images/skills/html-logo.png">
                       <h3>HTML</h3>
                     </div>
                   </div>
                 </div>
-                <div class="col-6 col-md-3">
+                <div style="background: #f2f4f4; border: 12px solid white;" class="col-12 col-sm-6 col-xl-3 grow-card">
                   <div class="d-flex justify-content-center mb-5 mt-5">
                     <div class="text-center"><img src="images/skills/css-logo.png">
                       <h3>CSS</h3>
                     </div>
                   </div>
                 </div>
-                <div class="col-6 col-md-3">
+                <div style="background: #f2f4f4; border: 12px solid white;" class="col-12 col-sm-6 col-xl-3 grow-card">
                   <div class="d-flex justify-content-center mb-5 mt-5">
                     <div class="text-center"><img src="images/skills/js-logo.png">
                       <h3>Javascript</h3>
                     </div>
                   </div>
                 </div>
-                <div class="col-6 col-md-3">
+                <div style="background: #f2f4f4; border: 12px solid white;" class="col-12 col-sm-6 col-xl-3 grow-card">
                   <div class="d-flex justify-content-center mb-5 mt-5">
                     <div class="text-center"><img width="64" height="64" src="images/skills/responsive-logo.svg">
                       <h3>Responsive Design</h3>
                     </div>
                   </div>
                 </div>
-                <div class="col-6 col-md-3">
+                <div style="background: #f2f4f4; border: 12px solid white;" class="col-12 col-sm-6 col-xl-3 grow-card">
                   <div class="d-flex justify-content-center mb-5 mt-5">
                     <div class="text-center"><img src="images/skills/litmus-logo.png">
                       <h3>Litmus</h3>
                     </div>
                   </div>
                 </div>
-                <div class="col-6 col-md-3">
+                <div style="background: #f2f4f4; border: 12px solid white;" class="col-12 col-sm-6 col-xl-3 grow-card">
                   <div class="d-flex justify-content-center mb-5 mt-5">
                     <div class="text-center"><img src="images/skills/mc-logo.png">
                       <h3>Mailchimp</h3>
                     </div>
                   </div>
                 </div>
-                <div class="col-6 col-md-3">
+                <div style="background: #f2f4f4; border: 12px solid white;" class="col-12 col-sm-6 col-xl-3 grow-card">
                   <div class="d-flex justify-content-center mb-5 mt-5">
                     <div class="text-center"><img src="images/skills/ps-logo.png">
                       <h3>Photoshop</h3>
                     </div>
                   </div>
                 </div>
-                <div class="col-6 col-md-3">
+                <div style="background: #f2f4f4; border: 12px solid white;" class="col-12 col-sm-6 col-xl-3 grow-card">
                   <div class="d-flex justify-content-center mb-5 mt-5">
                     <div class="text-center"><img width="64" height="64" src="images/skills/git-logo.svg">
                       <h3>Git</h3>
@@ -236,13 +246,13 @@
       <!-- Services
     ============================================= -->
       <section id="services" class="section">
-        <div class="container px-lg-5">
+        <div class="container px-lg-5 my-xl-4">
           <!-- Heading -->
-          <div class="position-relative d-flex text-center mb-5">
-            <h2 class="text-24 text-light opacity-4 text-uppercase fw-600 w-100 mb-0">Services</h2>
-            <p style="font-family: 'Oswald', sans-serif !important;"
-              class="text-9 text-dark fw-600 position-absolute w-100 align-self-center lh-base mb-0">What I Offer?<span
-                class="heading-separator-line border-bottom border-3 border-primary d-block mx-auto"></span> </p>
+          <div class="position-relative d-flex text-center mb-5 my-xl-5">
+            <h2 class="text-25 text-light opacity-3 text-uppercase fw-600 w-100 mb-0">Services</h2>
+            <p class="font-title text-12 text-dark fw-600 position-absolute w-100 align-self-center lh-base mb-0">What I
+              Offer?<span class="heading-separator-line border-bottom border-3 border-primary d-block mx-auto"></span>
+            </p>
           </div>
           <!-- Heading end-->
 
@@ -254,7 +264,9 @@
                     <div class="featured-box-icon text-primary bg-white shadow-sm rounded"> <i
                         class="fas fa-pencil-ruler"></i> </div>
                     <h3>Design</h3>
-                    <p class="mb-0">I design an email that resonates with your business’s target audience, specifically
+                    <p class="text-4 text-secondary mb-0">I design an email that resonates with your business’s target
+                      audience,
+                      specifically
                       your current email subscribers and customers.</p>
                   </div>
                 </div>
@@ -263,7 +275,9 @@
                     <div class="featured-box-icon text-primary bg-white shadow-sm rounded"> <i
                         class="fas fa-desktop"></i></div>
                     <h3>Development</h3>
-                    <p class="mb-0">I apply the best practices in email development, email compliance regulations, and
+                    <p class="text-4 text-secondary mb-0">I apply the best practices in email development, email
+                      compliance
+                      regulations, and
                       accessibility.</p>
                   </div>
                 </div>
@@ -272,7 +286,8 @@
                     <div class="featured-box-icon text-primary bg-white shadow-sm rounded"> <i
                         class="fas fa-chart-area"></i> </div>
                     <h3>Testing</h3>
-                    <p class="mb-0">I check the HTML, with an in depth programming validation, for all
+                    <p class="text-4 text-secondary mb-0">I check the HTML, with an in depth programming validation, for
+                      all
                       popular email clients and webmail services.</p>
                   </div>
                 </div>
@@ -281,7 +296,9 @@
                     <div class="featured-box-icon text-primary bg-white shadow-sm rounded"> <i
                         class="fas fa-bullhorn"></i> </div>
                     <h3>Launch</h3>
-                    <p class="mb-0">Your finalized email campaign is ready to be sent out to its target customers.</p>
+                    <p class="text-4 text-secondary mb-0">Your finalized email campaign is ready to be sent out to its
+                      target
+                      customers.</p>
                   </div>
                 </div>
               </div>
@@ -293,32 +310,33 @@
 
       <!-- Portfolio
     ============================================= -->
-      <section id="portfolio" class="section bg-light">
-        <div class="container px-lg-5">
+      <section id="portfolio" class="section">
+        <div class="container px-lg-5 my-xl-4">
           <!-- Heading -->
-          <div class="position-relative d-flex text-center mb-5">
-            <h2 class="text-24 text-light opacity-4 text-uppercase fw-600 w-100 mb-0">Portfolio</h2>
-            <p style="font-family: 'Oswald', sans-serif !important;"
-              class="text-9 text-dark fw-600 position-absolute w-100 align-self-center lh-base mb-0">My Work<span
-                class="heading-separator-line border-bottom border-3 border-primary d-block mx-auto"></span> </p>
+          <div class="position-relative d-flex text-center mb-5 my-xl-5">
+            <h2 class="text-25 text-light opacity-3 text-uppercase fw-600 w-100 mb-0">Portfolio</h2>
+            <p class="font-title text-12 text-dark fw-600 position-absolute w-100 align-self-center lh-base mb-0">My
+              Work<span class="heading-separator-line border-bottom border-3 border-primary d-block mx-auto"></span>
+            </p>
           </div>
           <!-- Heading end-->
 
           <!-- Filter Menu -->
           <ul class="portfolio-menu nav nav-tabs justify-content-center border-bottom-0 mb-5">
-            <li class="nav-item"> <a data-filter="*" class="nav-link active" href="">All</a></li>
-            <li class="nav-item"> <a data-filter=".design" href="" class="nav-link">HTML Email</a></li>
-            <li class="nav-item"> <a data-filter=".brand" href="" class="nav-link">MJML Framework</a></li>
+            <li class="nav-item"> <a data-filter="*" class="nav-link grow-btn text-5 active" href="">All</a></li>
+            <li class="nav-item"> <a data-filter=".design" href="" class="nav-link grow-btn text-5 ">HTML Email</a></li>
+            <li class="nav-item"> <a data-filter=".brand" href="" class="nav-link grow-btn text-5 ">MJML Framework</a>
+            </li>
             <!-- <li class="nav-item"> <a data-filter=".photos" href="" class="nav-link">Landing Page</a></li> -->
           </ul>
           <!-- Filter Menu end -->
           <!-- Airbnb MJML Email -->
           <div class="portfolio popup-ajax-gallery">
             <div class="row portfolio-filter g-4">
-              <div class="col-sm-6 col-lg-4 brand">
+              <div class="col-sm-6 col-xl-4 brand">
                 <div class="portfolio-box rounded">
-                  <div class="portfolio-img rounded"> <img class="img-fluid d-block"
-                      src="images/projects/airbnb-mjml.png" alt="">
+                  <div style="height: 325px" class="border border-dark portfolio-img rounded"> <img
+                      class="img-fluid d-block" src="images/projects/airbnb-mjml.png" alt="">
                     <div class="portfolio-overlay"> <a class="stretched-link" target="_blank"
                         href="https://chintriago.github.io/airbnb-email/"></a>
                       <div class="portfolio-overlay-details">
@@ -330,10 +348,10 @@
                 </div>
               </div>
               <!-- Google Pixel Buds Pro HTML Email -->
-              <div class="col-sm-6 col-lg-4 design">
+              <div class="col-sm-6 col-xl-4 design">
                 <div class="portfolio-box rounded">
-                  <div class="portfolio-img rounded"> <img class="img-fluid d-block"
-                      src="images/projects/google-email.png" alt="">
+                  <div style="height: 325px" class="border border-dark portfolio-img rounded"> <img
+                      class="img-fluid d-block" src="images/projects/google-email.png" alt="">
                     <div class="portfolio-overlay"> <a class="stretched-link" target="_blank"
                         href="https://chintriago.github.io/pixel-buds-pro-email/"></a>
                       <div class="portfolio-overlay-details">
@@ -345,10 +363,10 @@
                 </div>
               </div>
               <!-- SLides-5 MJML Email -->
-              <div class="col-sm-6 col-lg-4 artwork brand photos">
+              <div class="col-sm-6 col-xl-4 artwork brand photos">
                 <div class="portfolio-box rounded">
-                  <div class="portfolio-img rounded"> <img class="img-fluid d-block"
-                      src="images/projects/slides5-mjml.png" alt="">
+                  <div style="height: 325px" class="border border-dark portfolio-img rounded"> <img
+                      class="img-fluid d-block" src="images/projects/slides5-mjml.png" alt="">
                     <div class="portfolio-overlay"> <a class="stretched-link" target="_blank"
                         href="https://chintriago.github.io/slides-5-email/"></a>
                       <div class="portfolio-overlay-details">
@@ -360,10 +378,10 @@
                 </div>
               </div>
               <!-- Super Footer Email -->
-              <div class="col-sm-6 col-lg-4 design">
+              <div class="col-sm-6 col-xl-4 design">
                 <div class="portfolio-box rounded">
-                  <div class="portfolio-img rounded"> <img class="img-fluid d-block"
-                      src="images/projects/super-footer-email.png" alt="">
+                  <div style="height: 325px" class="border border-dark portfolio-img rounded"> <img
+                      class="img-fluid d-block" src="images/projects/super-footer-email.png" alt="">
                     <div class="portfolio-overlay"> <a class="stretched-link" target="_blank"
                         href="https://chintriago.github.io/super-footer-email/"></a>
                       <div class="portfolio-overlay-details">
@@ -375,14 +393,28 @@
                 </div>
               </div>
               <!-- Shopify MJML Email -->
-              <div class="col-sm-6 col-lg-4 brand">
+              <div class="col-sm-6 col-xl-4 brand">
                 <div class="portfolio-box rounded">
-                  <div class="portfolio-img rounded"> <img class="img-fluid d-block"
-                      src="images/projects/shopify-mjml-email.png" alt="">
+                  <div style="height: 325px" class="border border-dark portfolio-img rounded"> <img
+                      class="img-fluid d-block" src="images/projects/shopify-mjml-email.png" alt="">
                     <div class="portfolio-overlay"> <a class="stretched-link" target="_blank"
                         href="https://chintriago.github.io/shopify-email/"></a>
                       <div class="portfolio-overlay-details">
                         <h5 class="text-white fw-400">Shopify</h5>
+                        <span class="text-light">MJML Framework</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-xl-4 brand">
+                <div class="portfolio-box rounded">
+                  <div style="height: 325px" class="border border-dark portfolio-img rounded"> <img
+                      class="img-fluid d-block" src="images/projects/airbnb-mjml.png" alt="">
+                    <div class="portfolio-overlay"> <a class="stretched-link" target="_blank"
+                        href="https://chintriago.github.io/airbnb-email/"></a>
+                      <div class="portfolio-overlay-details">
+                        <h5 class="text-white fw-400">Airbnb</h5>
                         <span class="text-light">MJML Framework</span>
                       </div>
                     </div>
@@ -398,9 +430,9 @@
       <!-- Contact Me
     ============================================= -->
       <section id="contact" class="section">
-        <div class="container px-lg-5">
+        <div class="container px-lg-5 my-xl-4">
           <!-- Heading -->
-          <div class="position-relative d-flex text-center mb-5">
+          <div class="position-relative d-flex text-center mb-5 my-xl-5">
             <h2 class="text-24 text-light opacity-4 text-uppercase fw-600 w-100 mb-0">Contact</h2>
             <p style="font-family: 'Oswald', sans-serif !important;"
               class="text-9 text-dark fw-600 position-absolute w-100 align-self-center lh-base mb-0">Get in Touch<span
@@ -412,18 +444,18 @@
             <div class="col-md-4 col-xl-3 order-1 order-md-0 text-center text-md-start">
               <h2 class="d-flex justify-content-center mb-md-5 text-5 text-uppercase">Follow Me</h2>
               <ul class="d-md-block d-sm-flex justify-content-center social-icons">
-                <li class="d-flex justify-content-center mx-md-0 my-md-4 social-icons-facebook"><a
+                <li class="d-flex justify-content-center mx-md-0 my-md-4 social-icons-facebook"><a class="grow-nav"
                     data-bs-toggle="tooltip" href="https://www.facebook.com/sk8erx94" target="_blank"
                     title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
-                <li class="d-flex justify-content-center mx-md-0 my-md-4 social-icons-twitter"><a
+                <li class="d-flex justify-content-center mx-md-0 my-md-4 social-icons-twitter"><a class="grow-nav"
                     data-bs-toggle="tooltip" href="https://twitter.com/chrisintocode" target="_blank" title="Twitter"><i
                       class="fab fa-twitter"></i></a></li>
-                <li class="d-flex justify-content-center mx-md-0 my-md-4 social-icons-dribbble"><a
+                <li class="d-flex justify-content-center mx-md-0 my-md-4 social-icons-dribbble"><a class="grow-nav"
                     data-bs-toggle="tooltip" title="Instagram" data-bs-placement="top"
                     href="https://www.instagram.com/chris.intriago/" target="_blank"><i
                       class="fab fa-instagram"></i></a>
                 </li>
-                <li class="d-flex justify-content-center mx-md-0 my-md-4 social-icons-github"><a
+                <li class="d-flex justify-content-center mx-md-0 my-md-4 social-icons-github"><a class="grow-nav"
                     data-bs-toggle="tooltip" href="https://github.com/chintriago" target="_blank" title="GitHub"><i
                       class="fab fa-github"></i></a>
                 </li>
@@ -449,7 +481,7 @@
                 </div>
 
                 <p class="text-center mt-4 mb-0">
-                  <button id="submit-btn" class="btn btn-primary rounded-pill d-inline-flex" type="submit">Send
+                  <button id="submit-btn" class="grow-btn btn btn-primary rounded-pill d-inline-flex" type="submit">Send
                     Message</button>
                 </p>
               </form>
@@ -465,7 +497,7 @@
 
     <!-- Footer
   ============================================= -->
-    <footer id="footer" class="section bg-light">
+    <footer style="background: #f2f4f4;" id="footer" class="section">
       <div class="container px-lg-5">
         <div class="row d-flex justify-content-center">
           <div class=" col-lg-6 text-center text-lg-start">

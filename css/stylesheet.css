@@ -35,7 +35,6 @@
 /* =================================== */
 p {
   font-family: sans-serif!important;
-  font-size: 1.10rem!important;
 }
 
 body, html {
@@ -52,7 +51,6 @@ body {
   background: #dddddd;
   color: #4c4d4d;
   font-family: 'Oswald', sans-serif;
-
 }
 
 /*-------- Preloader --------*/
