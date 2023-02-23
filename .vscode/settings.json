@@ -1,3 +1,4 @@
 {
-    "php.version": "php.executablePath"
+    "php.version": "php.executablePath",
+    "liveServer.settings.port": 5501
 }
