@@ -18,21 +18,6 @@
     transform: scale(1.06); 
     }    
 
-.grow-logo { 
-    transition: all .4s ease-in-out; 
-    }
-
- .grow-logo .img-fluid {
-    border: none;
- }   
-    
-.grow-logo:hover { 
-    transform: scale(1.04); 
-    }
-
- .grow-logo:hover .img-fluid {
-    border: 4px solid #0d6efd;
- }
 
  .grow-card { 
     transition: all .2s ease-in-out; 
@@ -44,4 +29,10 @@
 
 .grow-card:hover h3 {
     color: #0d82fd;
+}
+
+@media (min-width: 992px) {
+    .desktop-icon-d-none {
+        display: none!important;
+    }
 }
