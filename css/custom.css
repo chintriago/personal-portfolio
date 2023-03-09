@@ -41,3 +41,8 @@
         display: none!important;
     }
 }
+@media (max-width: 575px) {
+    .portfolio-menu-mobile {
+        display: none;
+    }
+}
