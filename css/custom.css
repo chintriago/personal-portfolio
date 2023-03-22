@@ -32,10 +32,6 @@
     transform: scale(1.04); 
     }
 
-.grow-card:hover h3 {
-    color: #0d82fd;
-}
-
 @media (min-width: 992px) {
     .desktop-icon-d-none {
         display: none!important;
